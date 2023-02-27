@@ -1,0 +1,48 @@
+
+.modal{
+    &-image{
+        img{
+            clip-path: inset(0 0 0 0);
+            width: 100%;
+            height: 100%;
+            object-fit:contain;
+        }
+    }
+&-container{
+display: flex;
+flex-direction: row;
+font-family: 'Montserrat, sans-serif'!important;
+  color: #F2753B;
+}
+&-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:70%;
+    font-size: 1.5em!important;;
+}
+    
+&-content{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat, sans-serif'!important;
+  color: #F2753B;
+}
+}
+.ant-modal{
+    font-family: 'Montserrat, sans-serif'!important;
+  color: #F2753B;
+    width: 100% !important;
+&-body{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    h2{
+        font-size: 4em !important;
+    }
+}
+&-content{
+    padding: 0 !important;
+}
+}
